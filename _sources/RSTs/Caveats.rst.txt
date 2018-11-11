@@ -30,3 +30,7 @@ A number of means exist to contact the developer:
 
    * gmail: robinseahahn@gmail.com
    * github: https://github.com/robinboncoeur/ExcelVBA-CallSheet/issues
+   
+and to find the most current documentation - a (probably) updated version of this document - go to:
+   
+   * `my Github CallSheet page <https://robinboncoeur.github.io/xlVBA-CallSheet/>`_ 
