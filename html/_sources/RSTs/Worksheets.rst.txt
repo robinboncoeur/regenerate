@@ -1,0 +1,52 @@
+##############
+The Worksheets
+##############
+
+Call Sheet is an Excel workbook comprised of several worksheets. 
+
+
+CallSheet
+*********
+
+The first worksheet - called CallSheet - contains the form to be printed. It follows the original paper version in terms of structure, with regions to fill in extra staff and after-hours cases. These features are currently not used, but they are available.
+
+The staff and phone number fields can be filled out manually, but it is faster to use the "On-Call" form, which was the whole point of creating this workbook.
+
+The actual print area starts on row 110, *well down the sheet, out of sight*: this is by design, as it is important not to type into this area. The fields have special formulas which link them to corresponding fields at the top of the worksheet, so typing into the print region would remove the formulae and the sheet can not work as designed.
+
+
+NamesPhones
+***********
+
+Normally, this worksheet is only visible when the "On-Call" form is running: otherwise, it is hidden by the software [#issue01]_. The columns hold the following data:
+
+   * Names - sorted, in LastName, FirstName format
+   * Primary Phone - to be rung first
+   * Secondary Phone - to be rung second
+   * Role-ScrubScout - a "1" indicates this staffer performs this role
+   * Role-Anaesthetics - a "1" indicates this staffer performs this role
+   * Role-PACU - a "1" indicates this staffer performs this role
+   * Role-OTA - a "1" indicates this staffer performs this role
+   * Status - a "1" indicates an active status; "0", inactive
+   
+Staff do sometimes return to the department so putting them as inactive preserves their information. If they have retired, of course, it is probably safe to delete their record.
+
+
+Call History
+************
+
+The software supports maintaining a record on call staff, but as the program is sometimes used to merely enter names manually, the result is that records have not been very accurate.
+
+
+The Bak Sheets
+**************
+
+As a security measure, a copy of the interface (CallSheet) and of the NamesPhones sheet are saved as a backup.
+
+
+Addendum
+********
+
+  .. rubric:: Footnotes
+
+  .. [#issue01] What prompted hiding worksheets was an unfortunate event where someone decided to directly edit the "NamesPhones" worksheet. The result was that names and phone numbers were out of sync with each other, corrupting the data. Fortunately, it was picked up early that there was a problem, but this could have resulted in a disasterous night of call.

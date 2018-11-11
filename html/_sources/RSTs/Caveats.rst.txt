@@ -1,0 +1,32 @@
+######################################
+History, Caveats and How to Contact Me
+######################################
+
+
+History
+*******
+
+CallSheet was developed after I learned that it was taking personnel almost a half-hour to put a Call Sheet together manually (the after-hours coordinator had been expecting printed instead of written for legebility reasons). If the kind user takes a moment to go over the key points of this document, it shouldn't take any longer than a minute to make the selections and print the CallSheet form.
+
+
+Caveats
+*******
+
+Call Sheet is fully contained in a stand-alone Excel workbook. Although I would have preferred a proper database, Excel was all I had available within the organisation I was developing in, so I commandeered it to act as a flat-file database. Excel as a database is not ideal, but through the quirky magic of Visual Basic for Applications, it generally works as expected. No question it is definitely an improvement over manual copy-and-paste.
+
+VBA itself is not the stellar language to write solutions in one could hope or wish for, and my knowledge on how it works is a bit less than comprehensive. Therefore, someone following me in trying to maintain/fix the code may wonder at some of the kludges I employed. As I learn more on how to do this all properly, the kludges have been removed. Whilst I tried to be as professional as I could developing this tool, Call Sheet is pedestrian code at best.
+
+The developer of this tool makes no claims as to the accuracy or reliability of the data, nor are there any guarantees, implied or real, as to the document's fitness for purpose. I.e., it is presented and delivered as-is. Please keep this in mind when using this tool. I ask the user's patience with the code... it is what it is. If you manage to break it, you get to keep both pieces.
+
+While the language it is written in - VBA - is proprietary, the code supporting the use of this document - i.e., the "software" - is FOSS: free/open-source software. Please see the Licence Page for the licence agreement associated with this software.
+
+
+How to Contact the Developer
+****************************
+
+Whilst software developers endeavour to write clean, robust software with consistent, predictable behaviour, bugs do happen. The CallSheet developer is committed to supporting CallSheet, hence this document and a web presence on github.
+
+A number of means exist to contact the developer:
+
+   * gmail: robinseahahn@gmail.com
+   * github: https://github.com/robinboncoeur/ExcelVBA-CallSheet/issues
